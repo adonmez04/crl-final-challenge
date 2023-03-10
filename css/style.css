@@ -1,0 +1,272 @@
+/* THE MOBILE FIRST SOLUTION */
+/* The small screens */
+/* Under the 700px */
+
+/* 
+font-family: "Montserrat", sans-serif; 
+font-weight: 400;
+*/
+
+/* 
+font-family: "Oswald", sans-serif; 
+font-weight: 700;
+*/
+
+/*******************/
+/* Global Styles */
+/*******************/
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  /* To center the content */
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100vh;
+}
+
+main {
+  padding: 50px 0;
+}
+
+.container {
+  width: 80%;
+  max-width: 320px;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/*******************/
+/* Component Styles */
+/*******************/
+
+/* The header area */
+/*********************/
+
+.header {
+  background-color: #2e323f;
+  /* temp */
+  height: 50px;
+}
+
+.menu {
+  /* emtpy */
+}
+
+/* The hero area */
+/*********************/
+
+.hero {
+  background-color: #3b4050;
+  padding: 50px 0;
+}
+
+.hero__title {
+  /* Typography */
+  font-family: "Oswald", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  color: #fff;
+}
+
+.hero__title--color {
+  /* Typography */
+  color: #a59678;
+}
+
+.hero__content-area {
+  /* empty */
+}
+
+.hero__description {
+  /* Typography */
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #fff;
+}
+
+.btn {
+  /* Typography */
+  font-family: "Oswald", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+
+  /* Button */
+  display: inline-block;
+  padding: 5px 20px;
+  background-color: #a59678;
+  border-radius: 100px;
+}
+
+/* The feature area */
+/*********************/
+
+.feature {
+  background-color: #eee;
+}
+
+.feature-item {
+  /* empty */
+}
+
+.feature-item__title {
+  /* Typography */
+  font-family: "Oswald", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  color: #a59678;
+  /* Positioning */
+  text-align: center;
+}
+
+.feature-item__description {
+  /* Typography */
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  color: #3b4050;
+  /* Positioning */
+  text-align: center;
+}
+
+/* The content area */
+/*********************/
+
+/* content */
+
+.content {
+  /* empty */
+}
+
+.content-area {
+  /* empty */
+}
+
+.content-area__title {
+  /* Typography */
+  font-family: "Oswald", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  color: #a59678;
+}
+
+.content-area__description {
+  /* Typography */
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  color: #2e323f;
+}
+
+.content-area__img-area {
+  /* empty */
+}
+
+.content-area__img {
+  /* Positioning */
+  max-width: 100%;
+  display: block;
+}
+
+/* aside */
+.aside-area {
+  /* empty */
+}
+
+.aside-item {
+  background-color: #2e323f;
+}
+
+.aside-item__title {
+  /* Typography */
+  font-family: "Oswald", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  color: #fff;
+}
+
+.aside-item__description {
+  /* Typography */
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  color: #6f737f;
+}
+
+/* The footer area */
+/*********************/
+
+.footer {
+  background-color: #2e323f;
+}
+
+.footer__title {
+  /* Typography */
+  font-family: "Oswald", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: #fff;
+}
+
+.footer-area {
+  /* empty */
+}
+
+.footer-content {
+  /* empty */
+}
+
+.footer-area__content-title {
+  /* Typography */
+  font-family: "Oswald", sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  color: #a59678;
+}
+
+.footer-area__content-description {
+  /* Typography */
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 10px;
+  color: #6f737f;
+}
+
+.footer-area__list {
+  /* empty */
+}
+
+.footer-area__list-item--title {
+  font-family: "Oswald", sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  color: #a59678;
+}
+
+.footer-area__list-item {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 10px;
+  color: #6f737f;
+}
