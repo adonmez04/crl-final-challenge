@@ -1,0 +1,29 @@
+/* THE MOBILE FIRST SOLUTION */
+/* The medium screens */
+/* Above the 1000px */
+
+@media (min-width: 1000px) {
+  /*******************/
+  /* Global Styles */
+  /*******************/
+
+  .container {
+    width: 80%;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+
+  /*******************/
+  /* Component Styles */
+  /*******************/
+
+  /* The content area */
+  /*********************/
+
+  /* aside */
+
+  .aside-area {
+    flex-direction: row;
+    align-items: stretch;
+  }
+}

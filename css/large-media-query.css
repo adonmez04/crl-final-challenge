@@ -1,0 +1,60 @@
+/* THE MOBILE FIRST SOLUTION */
+/* The big screens */
+/*  Above the 1200px */
+
+@media (min-width: 1200px) {
+  /*******************/
+  /* Global Styles */
+  /*******************/
+
+  .container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+
+  /*******************/
+  /* Component Styles */
+  /*******************/
+
+  /* The content area */
+  /*********************/
+
+  /* The hero area */
+  /*********************/
+
+  .hero {
+    padding: 100px 0;
+  }
+
+  .hero__title {
+    /* Typography */
+    font-size: 90px;
+    line-height: 1;
+  }
+
+  .hero__title--color {
+    /* Typography */
+    line-height: 1;
+  }
+
+  .hero__description {
+    /* Typography */
+    font-size: 24px;
+  }
+
+  /* aside */
+
+  .aside-area {
+    flex-direction: column;
+    align-items: stretch;
+  }
+}

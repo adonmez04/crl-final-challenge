@@ -1,6 +1,6 @@
 /* THE MOBILE FIRST SOLUTION */
 /* The small screens */
-/* Under the 700px */
+/* Under the 1000px */
 
 /*******************/
 /* Global Styles */
@@ -32,8 +32,8 @@ main {
 
 .container {
   width: 80%;
-  /* max-width: 320px; */
-  max-width: 640px;
+  /* max-width: 700px; */
+  max-width: 1000px;
   margin: 0 auto;
 }
 
@@ -55,7 +55,7 @@ main {
 .header {
   background-color: #2e323f;
   /* temp */
-  height: 50px;
+  height: 75px;
 }
 
 .menu {
